@@ -17,19 +17,45 @@
   </header>
 
   <main>
+
+    <!-- New: Banner Image -->
     <section>
-      <h2>About This Site</h2>
-      <p>This is a very basic website built with just HTML and CSS. It's responsive and clean.</p>
+      <img src="https://via.placeholder.com/800x200" alt="Banner Image" class="banner">
     </section>
 
-    <section>
-      <h2>Features</h2>
-      <ul>
-        <li>Simple layout</li>
-        <li>Responsive design</li>
-        <li>Custom styles with CSS</li>
-      </ul>
+    <!-- New: Card-style Features -->
+    <section class="features">
+      <div class="card">
+        <h3>Fast</h3>
+        <p>Quick-loading static site with HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Simple</h3>
+        <p>Easy to understand and maintain structure.</p>
+      </div>
+      <div class="card">
+        <h3>Free</h3>
+        <p>Hosted on free platforms like Vercel or GitHub Pages.</p>
+      </div>
     </section>
+
+    <!-- New: Contact Form -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Your name" required>
+
+        <label>Email:</label>
+        <input type="email" placeholder="you@example.com" required>
+
+        <label>Message:</label>
+        <textarea placeholder="Your message here..." rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
   </main>
 
   <footer>
